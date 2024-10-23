@@ -1,9 +1,3 @@
-macro_new_tab: macro_new_tab{
-compatible = "zmk,behavior-macro";
-label = "macro_new_tab";
-#binding-cells = <0>;
-bindings = ;
-};
 macro_tmux_leader_key: macro_tmux_leader_key{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_leader_key";
