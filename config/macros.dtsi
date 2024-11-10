@@ -1,3 +1,21 @@
+macro_mac_recording: macro_mac_recording{
+compatible = "zmk,behavior-macro";
+label = "macro_mac_recording";
+#binding-cells = <0>;
+bindings = <&kp LEFT_SHIFT>, <&kp LEFT_COMMAND>, <&kp NUMBER_5>;
+};
+macro_mac_screenshot: macro_mac_screenshot{
+compatible = "zmk,behavior-macro";
+label = "macro_mac_screenshot";
+#binding-cells = <0>;
+bindings = <&kp LEFT_SHIFT>, <&kp LEFT_COMMAND>, <&kp NUMBER_4>;
+};
+macro_arc_screenshot: macro_arc_screenshot{
+compatible = "zmk,behavior-macro";
+label = "macro_arc_screenshot";
+#binding-cells = <0>;
+bindings = <&kp LEFT_SHIFT>, <&kp LEFT_COMMAND>, <&kp NUMBER_2>;
+};
 macro_tmux_leader_key: macro_tmux_leader_key{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_leader_key";
